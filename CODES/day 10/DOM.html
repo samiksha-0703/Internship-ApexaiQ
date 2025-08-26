@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>DOM Manipulation</title>
+    </head>
+
+    <body>
+        <h1 id="text"> this is some text </h1>
+        <button onclick="changeText()">change text</button>
+
+        <script>
+            function changeText() {
+                let element = document.getElementById("text");
+                element.innerHTML = "text changed by js";
+            }
+        </script>
+    </body>
+</html>
